@@ -1,0 +1,9 @@
+[submodule "mousekyc-fe"]
+	path = mousekyc-fe
+	url = git@github.com:norestlabs/mousekyc-fe.git
+[submodule "mousekyc-be"]
+	path = mousekyc-be
+	url = git@github.com:norestlabs/mousekyc-be.git
+[submodule "mousekyc-admin"]
+	path = mousekyc-admin
+	url = git@github.com:norestlabs/mousekyc-admin.git
