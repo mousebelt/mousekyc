@@ -5,6 +5,8 @@ This project is created by MouseBelt and No Rest Labs to serve as an open-source
 
 ### Do I Want This?
 
+This is probably a question for your legal advisor, which we are not a substitute for. This can help you fill some of the requirements laid out for your project. Typical users, however, are projects with ICO dashboards and exchanges.
+
 ### Project Structure
 
 There are three components: A user-facing registration application, a backend server application and an admin panel.
@@ -14,3 +16,15 @@ There are three components: A user-facing registration application, a backend se
 [**mousekyc-be**](https://github.com/norestlabs/mousekyc-be) - This is the backend, based in nodejs and mongodb. It serves both the admin and end user APIs. It can be customized to fit your application needs, and with a webhook going to the application you are trying to KYC. You can integrate an email provider by registering an account, making the appropriate DNS entries, and pasting in the keys to the application if you would like to send email notifications through this component as well.
 
 [**mousekyc-admin**](https://github.com/norestlabs/mousekyc-admin) - This is the admin panel. It should be configured to aim at the backend, and with an application owner email specified in the configuration.
+
+### Documentation
+
+[**API Docs**](https://github.com/norestlabs/mousekyc-be/wiki) - You can view the API documentation in the wiki. Click through the bar on the right to page through the different APIs.
+
+### Contributing
+
+If you see a change, bugfix or other edit to make, please file an issue and open a PR. We'll be happy to review it and get it merged in.
+
+### Usage
+
+Use the repository however you like under the MIT license. Feel free to copy it and brand it to your product (instructions for this may be found in the frontend repository)
